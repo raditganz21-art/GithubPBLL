@@ -7,7 +7,7 @@ use App\Core\HttpException;
 use App\Core\Request;
 use App\Core\ValidationException;
 
-require dirname(__DIR__) . '/bootstrap/app.php';
+require __DIR__.'/../bootstrap/app.php';
 
 $request = Request::capture();
 
