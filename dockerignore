@@ -1,0 +1,9 @@
+.env
+.env.testing
+.git
+tests
+docs
+storage/sessions/*
+storage/uploads/*
+storage/cache/*
+storage/logs/*
